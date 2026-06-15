@@ -35,7 +35,7 @@ Sequence to Point Target Alignment
 The target value (Y) is aligned to the exact midpoint of the aggregate sequence window (X). This allows the bidirectional model to evaluate past and future context simultaneously.
 
 Normalization
-Every appliance and the aggregate signal are independently divided by their historical maximum wattage. Scaling inputs to a 0 to 1 range ensures stable gradients.
+Every appliance and the aggregate signal are normalized.
 
 
 3. Model Training (train_nnan.py)
